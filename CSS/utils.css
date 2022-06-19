@@ -1,0 +1,85 @@
+/* This CSS is Created for Buttons and for Other Elements Styling which can be used for Other Websites.*/
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Open+Sans:ital@1&family=Roboto:ital,wght@1,500&display=swap');
+
+
+.searchTxt{
+    width: 22vw;
+    height: 6vh;
+    border: 1px solid black;
+    border-radius: 3vh;
+
+}
+
+.Btn{
+    padding: 1vh 1vw;
+    margin-left: 1vw;
+    height: 6vh;
+    min-width: 6vw;
+    max-width: auto;
+    border: 1px solid #00bfff;
+    border-radius: 3vh;
+    overflow: hidden;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+.Btn:hover{
+    background-color: #00bfff;
+    cursor: pointer;
+}
+
+.Btn2{
+    padding: 0vh 0.5vw;
+    margin: 0;
+    height: 5vh;
+    min-width: 1vw;
+    max-width: auto;
+    border-radius: 5vh;
+}
+
+
+.textarea {
+    width: 100%;
+    margin: 5vh 0vw;
+    box-sizing: border-box;
+    font-family: 'Baloo 2', cursive;
+    font-size: 2.5vh;
+    height: 51vh;
+}
+
+.notesDisplay {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+}
+
+.noteCard {
+    display: flex;
+    justify-content: space-between;
+    border: 0.4vh solid black;
+    margin: 1vh 1vw;
+    width: 14vw;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5vh;
+    margin: 1vh 1vw;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 6vh;
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3.5vh;
+    text-align: center;
+}

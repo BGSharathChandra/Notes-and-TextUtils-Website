@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Open+Sans:ital@1&family=Roboto:ital,wght@1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+nav{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    background-color: aqua;
+    justify-content: space-between;
+}
+.navContainer{
+    display: flex;
+}
+nav ul{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li{
+    padding-left: 2vh;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+}
+.logo{
+    height: 100%;
+    width: 10vh;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    height:8vh;
+}
+
+.Navsearch{
+    display: flex;
+    align-items: center;
+    margin-right: 8vw;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

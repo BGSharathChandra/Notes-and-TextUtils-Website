@@ -1,0 +1,85 @@
+nav {
+    flex-direction: column;
+    height: auto;
+}
+
+.navContainer {
+    flex-direction: row;
+}
+
+.logo {
+    display: flex;
+    align-self: flex-start;
+    justify-self: center;
+    width: 20vw;
+
+}
+
+.logo img {
+    height: 5vh;
+}
+
+.navUl ul {
+    width: 80vw;
+    display: flex;
+    align-content: center;
+}
+
+.searchTxt {
+    width: 60vw;
+    height: 4vh;
+}
+
+.textarea {
+    height: 25vh;
+}
+
+.Btn {
+    border-radius: 3.7vh;
+    margin: 0.2vh 0.1vw;
+    font-size: 2.3vh;
+}
+
+#searchBtn {
+    margin-left: 0.5vh;
+    height: 4vh;
+    width: 40vw;
+    padding: 0.2vh 0.5vw;
+}
+
+#DeleteBtn {
+    height: 1vw;
+    width: 12vw;
+}
+
+.noteCard {
+    width: 45vw;
+    height: auto;
+}
+
+h4 {
+    font-size: 2.5vh;
+}
+
+
+
+h1 {
+    font-size: 3vh;
+}
+
+/* This Media Query Used as there is only little to Code to add and Creating a new file for it is not a Good Thing to do */
+
+@media screen and (max-width: 330px) {
+    .noteCard {
+        width: 100vw;
+        height: auto;
+    }
+
+}
+
+/* This code is for the About Page */
+
+
+#aboutP{
+    font-size: 2.5vh;
+}

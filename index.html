@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextUtils and Notes Taking Website</title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/utils.css">
+    <link rel="stylesheet" media="screen and (max-width: 500px)" href="CSS/phone.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navContainer">
+
+                <div class="logo">
+                    <a href="index.html"><img src="logo.png" alt="logo"></a>
+                </div>
+                <div class="navUl">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="Navsearch">
+                <input type="search" name="" id="searchTxt" class="searchTxt"> <!--This is the Search Bar InpTxt is given fot Utils.cc--> 
+                <button id = "searchBtn" class = "Btn">Search</button>
+            </div>
+                
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to TextUtils and Notes Taking Website </h1>
+        <div class="MainContainer">
+
+            <textarea class="textarea" id="textarea" rows="15"></textarea>
+            <!-- Operators -->
+            <div class="operators">
+                <button class="Btn" id = "addNote">Add Note</button>
+                <button class="Btn" id="CTU">Convert to UpperCase</button> <!--CTU Means Convert to UpperCase-->
+                <button class="Btn" id="CTL">Convert to LowerCase</button>
+                <button class="Btn" id="RP">Remove Punctuations</button>
+                <button class="Btn" id="RLN">Remove all Numbers</button>
+                <button class="Btn" id="RES">Remove Extra Spaces</button>
+                <button class="Btn" id="Ctxt">Clear Text</button>               
+            </div>
+        </div>
+        <div class="notesDisplay" id = "notesDisplay"></div>
+    </main>
+    <footer></footer>
+</body>
+<script src="Script/script.js"></script>
+</html>
